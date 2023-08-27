@@ -6,17 +6,17 @@ import Works from './pages/Works'
 import Contact from './pages/Contact'
 import PageNotFound from './pages/PageNotFound'
 
-const App = () => {
+const App: React.FC = () => {
   return (
-    <>
-      <Routes>
+    <div className=''>
+      <Routes >
         <Route path='/' element={<Home />} />
         <Route path='/works' element={<Works />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<PageNotFound />} />
       </Routes>
-    </>
+    </div>
   )
 }
 

@@ -1,4 +1,4 @@
-const Works = () => {
+const Works:React.FC = () => {
   return (
     <div>Works</div>
   )
