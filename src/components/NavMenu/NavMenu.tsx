@@ -10,7 +10,7 @@ const NavMenu:React.FC<Props> = ({onClick}) => {
     <motion.nav
       initial={{y: '-2vh'}}
       animate={{y: '0vh'}}
-      transition={{duration: 1}}
+      transition={{duration: 0.5}}
       className="z-50 pt-10 fixed w-screen h-screen bg-white flex justify-center"
       >
         <div onClick={onClick} className='text-lg font-bold mt-10 w-10/12 h-1/3 flex flex-col justify-between items-center divide-y divide-dotted divide-gray-500'>
