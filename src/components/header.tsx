@@ -21,7 +21,7 @@ const Header:React.FC = () => {
         </Link>
         <div className='hidden text-lg font-bold md:flex w-1/3 justify-between mr-10'>
           <Link to='/works'>WORKS</Link>
-          <Link to='/about'>ABOUT</Link>
+          <Link to='/profile'>PROFILE</Link>
           <Link to='/contact'>CONTACT</Link>
         </div>
         <div className='md:hidden mr-10'>

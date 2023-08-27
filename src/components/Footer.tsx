@@ -1,0 +1,20 @@
+import {BsInstagram} from 'react-icons/bs'
+
+import FooterLink from "./FooterLink"
+
+const Footer:React.FC = () => {
+  return (
+    <div className="fixed z-30 bottom-0 h-40 bg-gray-200 w-screen flex justify-center">
+      <div className='flex justify-around h-full w-10/12'>
+        <FooterLink linkTo="/works" elementName="WORKS" />
+        <FooterLink linkTo="/profile" elementName="PROFILE" />
+        <FooterLink linkTo="/contact" elementName="CONTACT" />
+      </div>
+      <a href="https://www.instagram.com/daiki_ito_art/?igshid=OGQ5ZDc2ODk2ZA%3D%3D">
+        <BsInstagram className='text-xl absolute bottom-7 right-10' />
+      </a>
+    </div>
+  )
+}
+
+export default Footer
