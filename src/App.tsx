@@ -8,7 +8,7 @@ import Profile from './pages/Profile'
 
 const App: React.FC = () => {
   return (
-    <div className=''>
+    <>
       <Routes >
         <Route path='/' element={<Home />} />
         <Route path='/profile' element={<Profile />} />
@@ -16,7 +16,7 @@ const App: React.FC = () => {
         <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<PageNotFound />} />
       </Routes>
-    </div>
+    </>
   )
 }
 

@@ -1,6 +1,10 @@
+import { PageTransitionMotion } from "../components/PageTransitionMotion"
+
 const Works:React.FC = () => {
   return (
-    <div>Works</div>
+    <PageTransitionMotion>
+      <div>Works</div>
+    </PageTransitionMotion>
   )
 }
 
