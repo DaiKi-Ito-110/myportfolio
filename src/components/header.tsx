@@ -19,7 +19,7 @@ const Header:React.FC = () => {
             DAIKI ITO
           </h1>
         </Link>
-        <div className='hidden text-lg md:flex w-1/3 justify-between mr-10'>
+        <div className='hidden text-lg font-bold md:flex w-1/3 justify-between mr-10'>
           <Link to='/works'>WORKS</Link>
           <Link to='/about'>ABOUT</Link>
           <Link to='/contact'>CONTACT</Link>
