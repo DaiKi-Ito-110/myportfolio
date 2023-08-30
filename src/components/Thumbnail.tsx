@@ -12,14 +12,14 @@ type Props = {
 const Thumbnail:React.FC<Props> = ({image, title, delay, pageLink}) => {
   return (
     <TransitionFromBottom delay={delay}>
-          <TransitionScaleUpOnHover>
             <Link to={pageLink}>
               <div className="w-3/5 md:w-2/5 m-auto mt-10">
+            <TransitionScaleUpOnHover>
                 <img src={image} alt='thumbnail' />
                 <p className="mt-1 font-bold text-xs md:text-sm">{title}</p>
+            </TransitionScaleUpOnHover>
               </div>
             </Link>
-          </TransitionScaleUpOnHover>
     </TransitionFromBottom>
   )
 }
