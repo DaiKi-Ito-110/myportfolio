@@ -20,25 +20,25 @@ export const workInfo = [
   },
   {
     title: 'aaa',
-    pageLink: '/works/waterdropletsculpture',
+    pageLink: '/works/waterdropletsculpture1',
     thumbnailImg: WDSThumbnail,
     detailImgs: [WDSImg1, WDSImg2, WDSImg3, WDSImg4, WDSImg5, WDSImg6, WDSImg7, WDSImg8]
   },
   {
     title: 'aaa',
-    pageLink: '/works/waterdropletsculpture',
+    pageLink: '/works/waterdropletsculpture2',
     thumbnailImg: WDSThumbnail,
     detailImgs: [WDSImg1, WDSImg2, WDSImg3, WDSImg4, WDSImg5, WDSImg6, WDSImg7, WDSImg8]
   },
   {
     title: 'aaa',
-    pageLink: '/works/waterdropletsculpture',
+    pageLink: '/works/waterdropletsculpture3',
     thumbnailImg: WDSThumbnail,
     detailImgs: [WDSImg1, WDSImg2, WDSImg3, WDSImg4, WDSImg5, WDSImg6, WDSImg7, WDSImg8]
   },
   {
     title: 'aaa',
-    pageLink: '/works/waterdropletsculpture',
+    pageLink: '/works/waterdropletsculpture4',
     thumbnailImg: WDSThumbnail,
     detailImgs: [WDSImg1, WDSImg2, WDSImg3, WDSImg4, WDSImg5, WDSImg6, WDSImg7, WDSImg8]
   },
