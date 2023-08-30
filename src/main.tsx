@@ -9,7 +9,7 @@ import Footer from './components/Footer.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <div>
+    <div className='text-gray-950'>
       <BrowserRouter>
         <Header />
         <App />

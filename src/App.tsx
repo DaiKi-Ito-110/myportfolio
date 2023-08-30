@@ -17,8 +17,8 @@ const App: React.FC = () => {
         <Route path='/profile' element={<Profile />} />
         <Route path='/works' element={<Works />} />
         <Route path='/contact' element={<Contact />} />
-        {workInfo.map((work) =>
-          <Route path={work.pageLink} element={<WorkDetail title={work.title} thumbnail={work.thumbnailImg} detailImgs={work.detailImgs} />} />
+        {workInfo.map((work, i) =>
+          <Route key={i} path={work.pageLink} element={<WorkDetail work={work} />} />
         )}
         <Route path='*' element={<PageNotFound />} />
       </Routes>
