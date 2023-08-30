@@ -3,16 +3,19 @@ import { ReactNode } from 'react';
 
 type Props = {
   children: ReactNode;
+  delay?: number;
 };
 
-export const PageTransitionMotion:React.FC<Props> = ({children}) => {
+const TransitionFromBottom:React.FC<Props> = ({children, delay}) => {
   return (
     <motion.div
-      initial={{opacity: 0, y: '-2vh'}}
+      initial={{opacity: 0, y: '2vh'}}
       animate={{opacity: 1, y: '0vh'}}
-      transition={{duration: 1}}
+      transition={{duration: 1, delay: delay}}
       >
         {children}
     </motion.div>
   )
 }
+
+export default TransitionFromBottom

@@ -4,7 +4,7 @@ import FooterLink from "./FooterLink"
 
 const Footer:React.FC = () => {
   return (
-    <div className="fixed z-30 bottom-0 h-40 bg-gray-200 w-screen flex justify-center">
+    <div className="h-40 bg-gray-200 w-screen flex justify-center relative">
       <div className='flex justify-around h-full w-10/12'>
         <FooterLink linkTo="/works" elementName="WORKS" />
         <FooterLink linkTo="/profile" elementName="PROFILE" />
