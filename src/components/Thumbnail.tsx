@@ -1,5 +1,6 @@
 import { Link} from "react-router-dom";
 import TransitionFromBottom from "./TransitionFromBottom";
+import TransitionScaleUpOnHover from "./TransitionScaleUpOnHover";
 
 type Props = {
   image: string;
@@ -11,12 +12,14 @@ type Props = {
 const Thumbnail:React.FC<Props> = ({image, title, delay, pageLink}) => {
   return (
     <TransitionFromBottom delay={delay}>
-        <Link to={pageLink}>
-          <div className="w-3/5 md:w-2/5 m-auto mt-10">
-            <img src={image} alt='thumbnail' />
-            <p className="mt-1 font-bold text-xs md:text-sm">{title}</p>
-          </div>
-        </Link>
+          <TransitionScaleUpOnHover>
+            <Link to={pageLink}>
+              <div className="w-3/5 md:w-2/5 m-auto mt-10">
+                <img src={image} alt='thumbnail' />
+                <p className="mt-1 font-bold text-xs md:text-sm">{title}</p>
+              </div>
+            </Link>
+          </TransitionScaleUpOnHover>
     </TransitionFromBottom>
   )
 }
