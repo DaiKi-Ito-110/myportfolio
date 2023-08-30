@@ -1,34 +1,11 @@
 import Thumbnail from "../components/Thumbnail"
-import waterDropletsSculptureThumbnail from '../assets/images/waterDropletSculpture/thumbnail.webp'
-
-const works = [
-  {
-    imgAdd: waterDropletsSculptureThumbnail,
-    title: '水滴の彫刻',
-  },
-  {
-    imgAdd: waterDropletsSculptureThumbnail,
-    title: '水滴の彫刻',
-  },
-  {
-    imgAdd: waterDropletsSculptureThumbnail,
-    title: '水滴の彫刻',
-  },
-  {
-    imgAdd: waterDropletsSculptureThumbnail,
-    title: '水滴の彫刻',
-  },
-  {
-    imgAdd: waterDropletsSculptureThumbnail,
-    title: '水滴の彫刻',
-  },
-]
+import { workInfo } from "../workInfo"
 
 const Works:React.FC = () => {
   return (
     <div>
-      {works.map((work, i) =>
-        <Thumbnail image={work.imgAdd} title={work.title} delay={i*0.1} />
+      {workInfo.map((work, i) =>
+        <Thumbnail image={work.thumbnailImg} title={work.title} delay={i*0.1} pageLink={work.pageLink} />
       )}
     </div>
   )
