@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom'
+import OnHoverBar from './OnHoverBar';
 
 type Props = {
   linkTo: string;
@@ -7,7 +8,11 @@ type Props = {
 
 const FooterLink:React.FC<Props> = ({linkTo, elementName}) => {
   return (
-    <Link to={linkTo} className='font-bold flex items-center'>{elementName}</Link>
+    <div className='flex items-center'>
+      <OnHoverBar>
+        <Link to={linkTo} className='font-bold'>{elementName}</Link>
+      </OnHoverBar>
+    </div>
   )
 }
 
