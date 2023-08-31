@@ -8,6 +8,7 @@ const Footer:React.FC = () => {
       <div className='flex justify-around h-full w-10/12'>
         <FooterLink linkTo="/works" elementName="WORKS" />
         <FooterLink linkTo="/profile" elementName="PROFILE" />
+        <FooterLink linkTo="/news" elementName="NEWS" />
         <FooterLink linkTo="/contact" elementName="CONTACT" />
       </div>
       <a href="https://www.instagram.com/daiki_ito_art/?igshid=OGQ5ZDc2ODk2ZA%3D%3D">

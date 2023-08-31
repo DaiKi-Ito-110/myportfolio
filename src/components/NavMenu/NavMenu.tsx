@@ -13,9 +13,10 @@ const NavMenu:React.FC<Props> = ({onClick}) => {
       transition={{duration: 0.75}}
       className="z-50 pt-10 fixed w-screen h-screen bg-white flex justify-center"
       >
-      <div onClick={onClick} className='text-lg font-bold mt-10 w-10/12 h-1/3 flex flex-col justify-between items-center divide-y divide-dotted divide-gray-500'>
+      <div onClick={onClick} className='text-lg font-bold mt-10 w-10/12 h-1/2 flex flex-col justify-between items-center divide-y divide-dotted divide-gray-500'>
         <NavElement linkTo='/works' elementName='WORKS'/>
-        <NavElement linkTo='/Profile' elementName='PROFILE' />
+        <NavElement linkTo='/profile' elementName='PROFILE' />
+        <NavElement linkTo='/news' elementName='NEWS' />
         <NavElement linkTo='/contact' elementName='CONTACT' />
       </div>
     </motion.nav>
