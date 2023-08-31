@@ -23,7 +23,6 @@ const Header:React.FC = () => {
           <Link to='/works'>WORKS</Link>
           <Link to='/profile'>PROFILE</Link>
           <Link to='/news'>NEWS</Link>
-          <Link to='/contact'>CONTACT</Link>
         </div>
         <div className='md:hidden mr-10'>
           <Hamburger toggled={isOpen} toggle={toggleIsOpen} size={26} />

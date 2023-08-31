@@ -17,7 +17,6 @@ const NavMenu:React.FC<Props> = ({onClick}) => {
         <NavElement linkTo='/works' elementName='WORKS'/>
         <NavElement linkTo='/profile' elementName='PROFILE' />
         <NavElement linkTo='/news' elementName='NEWS' />
-        <NavElement linkTo='/contact' elementName='CONTACT' />
       </div>
     </motion.nav>
   )

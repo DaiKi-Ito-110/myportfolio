@@ -9,7 +9,6 @@ const Footer:React.FC = () => {
         <FooterLink linkTo="/works" elementName="WORKS" />
         <FooterLink linkTo="/profile" elementName="PROFILE" />
         <FooterLink linkTo="/news" elementName="NEWS" />
-        <FooterLink linkTo="/contact" elementName="CONTACT" />
       </div>
       <a href="https://www.instagram.com/daiki_ito_art/?igshid=OGQ5ZDc2ODk2ZA%3D%3D">
         <BsInstagram className='text-xl absolute bottom-7 right-10' />
