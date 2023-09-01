@@ -5,9 +5,10 @@ import Works from './pages/Works'
 import News from './pages/News'
 import PageNotFound from './pages/PageNotFound'
 import Profile from './pages/Profile'
-import { workInfo } from './workInfo'
-
 import WorkDetail from './pages/WorkDetail'
+import { workInfo } from './workInfo'
+import { newsInfo } from './newsInfo'
+import NewsDetail from './components/NewsDetail'
 
 const App: React.FC = () => {
   return (
@@ -18,6 +19,9 @@ const App: React.FC = () => {
         <Route path='/news' element={<News />} />
         {workInfo.map((work, i) =>
           <Route key={i} path={work.pageLink} element={<WorkDetail work={work} />} />
+        )}
+        {newsInfo.map((news, i) =>
+          <Route key={i} path={news.pageLink} element={<NewsDetail news={news} />} />
         )}
         <Route path='*' element={<PageNotFound />} />
       </Routes>

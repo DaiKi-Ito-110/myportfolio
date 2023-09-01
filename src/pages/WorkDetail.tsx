@@ -1,9 +1,9 @@
-import { workInfoType } from "../workInfo"
+import { workInfoContentType } from "../workInfo"
 import {useInView} from 'react-intersection-observer'
 import TransitionFromBottom from "../components/TransitionFromBottom";
 
 type Props = {
-  work: workInfoType;
+  work: workInfoContentType;
 };
 
 const WorkDetail:React.FC<Props> = ({work}) => {
