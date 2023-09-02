@@ -1,4 +1,4 @@
-import NavElement from './NavElement';
+import NavElement from './NavElement.tsx';
 import { motion } from 'framer-motion';
 
 type Props = {

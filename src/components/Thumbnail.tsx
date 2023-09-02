@@ -1,6 +1,6 @@
 import { Link} from "react-router-dom";
-import TransitionFromBottom from "./TransitionFromBottom";
-import TransitionScaleUpOnHover from "./TransitionScaleUpOnHover";
+import TransitionFromBottom from "./TransitionFromBottom.tsx";
+import TransitionScaleUpOnHover from "./TransitionScaleUpOnHover.tsx";
 
 type Props = {
   image: string;

@@ -1,8 +1,8 @@
-import { workInfoContentType } from "../workInfo"
+import { workInfoContentType } from "../workInfo.ts"
 import {useInView} from 'react-intersection-observer'
-import TransitionFromBottom from "../components/TransitionFromBottom";
+import TransitionFromBottom from "../components/TransitionFromBottom.tsx";
 import { useState } from "react";
-import OnHoverBar from "../components/OnHoverBar";
+import OnHoverBar from "../components/OnHoverBar.tsx";
 import {VscTriangleDown, VscTriangleUp} from 'react-icons/vsc'
 
 type Props = {

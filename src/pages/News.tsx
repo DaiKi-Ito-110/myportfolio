@@ -1,5 +1,5 @@
-import NewsCard from "../components/NewsCard"
-import {newsInfo, newsInfoContentType} from '../newsInfo'
+import NewsCard from "../components/NewsCard.tsx"
+import {newsInfo, newsInfoContentType} from '../newsInfo.ts'
 
 const News = () => {
   return (

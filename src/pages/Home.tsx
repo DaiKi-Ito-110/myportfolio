@@ -1,4 +1,4 @@
-import { HomeLinkToPage } from "../components/HomeLinkToPage"
+import { HomeLinkToPage } from "../components/HomeLinkToPage.tsx"
 
 //works
 import wThumbnail from '../../src/assets/images/works/waterDropletSculpture/thumbnail.webp'

@@ -1,6 +1,6 @@
 import {BsInstagram} from 'react-icons/bs'
 
-import FooterLink from "./FooterLink"
+import FooterLink from "./FooterLink.tsx"
 
 const Footer:React.FC = () => {
   return (

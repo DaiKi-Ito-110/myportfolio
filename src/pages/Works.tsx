@@ -1,5 +1,5 @@
-import Thumbnail from "../components/Thumbnail"
-import { workInfo } from "../workInfo"
+import Thumbnail from "../components/Thumbnail.tsx"
+import { workInfo } from "../workInfo.ts"
 
 const Works:React.FC = () => {
   return (

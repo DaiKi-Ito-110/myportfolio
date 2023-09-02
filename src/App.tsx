@@ -1,16 +1,16 @@
 import {Routes, Route} from 'react-router-dom'
 
-import Home from "./pages/Home"
-import Works from './pages/Works'
-import News from './pages/News'
-import PageNotFound from './pages/PageNotFound'
-import Profile from './pages/Profile'
-import WorkDetail from './pages/WorkDetail'
-import { workInfo } from './workInfo'
-import { newsInfo } from './newsInfo'
-import NewsDetail from './components/NewsDetail'
-import Header from './components/Header'
-import Footer from './components/Footer'
+import Home from "./pages/Home.tsx"
+import Works from './pages/Works.tsx'
+import News from './pages/News.tsx'
+import PageNotFound from './pages/PageNotFound.tsx'
+import Profile from './pages/Profile.tsx'
+import WorkDetail from './pages/WorkDetail.tsx'
+import { workInfo } from './workInfo.ts'
+import { newsInfo } from './newsInfo.ts'
+import NewsDetail from './components/NewsDetail.tsx'
+import Header from './components/Header.tsx'
+import Footer from './components/Footer.tsx'
 
 const App: React.FC = () => {
   return (

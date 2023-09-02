@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import { newsInfoContentType } from "../newsInfo"
+import { newsInfoContentType } from "../newsInfo.ts"
 import {HiOutlineExternalLink} from 'react-icons/hi'
-import OnHoverBar from "./OnHoverBar";
+import OnHoverBar from "./OnHoverBar.tsx";
 
 type Props = {
   news: newsInfoContentType;
