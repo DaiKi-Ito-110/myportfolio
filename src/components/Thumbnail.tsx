@@ -19,7 +19,7 @@ const Thumbnail:React.FC<Props> = ({image, title, delay, pageLink}) => {
                 <img src={image} alt='thumbnail' />
               </TransitionScaleUpOnHover>
             </div>
-            <p className="mt-1 font-bold text-xs md:text-sm">{title}</p>
+            <p className="mt-1 font-bold text-xs">{title}</p>
           </Link>
         </div>
     </TransitionFromBottom>
