@@ -9,8 +9,8 @@ import WorkDetail from './pages/WorkDetail'
 import { workInfo } from './workInfo'
 import { newsInfo } from './newsInfo'
 import NewsDetail from './components/NewsDetail'
-import Header from './components/Header'
-import Footer from './components/Footer'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 const App: React.FC = () => {
   return (
