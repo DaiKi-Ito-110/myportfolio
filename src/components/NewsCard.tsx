@@ -4,7 +4,7 @@ import TransitionScaleUpOnHover from "./TransitionScaleUpOnHover";
 import OnHoverBar from "./OnHoverBar";
 
 type Props = {
-  image: string;
+  image?: string;
   title: string;
   delay: number;
   pageLink: string;
@@ -20,7 +20,10 @@ const NewsCard:React.FC<Props> = ({image, title, delay, pageLink, year, explanat
           <div className="overflow-hidden">
           <Link to={pageLink}>
             <TransitionScaleUpOnHover>
-              <img src={image} alt='thumbnail' />
+              {image ?
+                <img src={image} alt='thumbnail' />:
+                <p className="bg-gray-100 text-center flex justify-center items-center font-bold text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl h-40 sm:h-52 md:h-52 lg:h-60 xl:h-80 2xl:h-96">{title}</p>
+            }
             </TransitionScaleUpOnHover>
           </Link>
           </div>
@@ -29,11 +32,11 @@ const NewsCard:React.FC<Props> = ({image, title, delay, pageLink, year, explanat
           <p className="mt-5 text-xs whitespace-pre-wrap">{explanation}</p>
           <div className="w-20">
           <Link to={pageLink}>
-              <p className="inline-block text-xs font-bold mt-2">
-            <OnHoverBar>
-                READ MORE
-            </OnHoverBar>
-                </p>
+            <div className="inline-block">
+              <OnHoverBar>
+                <p className="text-xs font-bold mt-2"> READ MORE </p>
+              </OnHoverBar>
+            </div>
           </Link>
           </div>
         </div>
