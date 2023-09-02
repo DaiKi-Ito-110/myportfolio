@@ -60,7 +60,7 @@ export const newsInfo:newsInfoType = [
     title:'情報処理学会INTERACTION 2023' ,
     pageLink: '/news/interaction2023',
     year: '2023',
-    explanation: '情報処理学会INTERACTION2023にて「Pendulum Resonator」のインタラクティブ発表を行いました。',
+    explanation: '情報処理学会INTERACTION2023にて「Pendulum Resonator」のインタラクティブ発表を行いました。\n\n\n\n\n発表文献：伊藤 大貴，橋田 朋子：Pendulum Resonator: 振り子の共振と運動の特性を利用した動的な出力を離れた場所で行えるシステム，インタラクション2023，pp.694-698(2023.3)',
     internalRelatedLink: [
         {
         title: 'Pendulum Resonator',

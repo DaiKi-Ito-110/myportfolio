@@ -25,6 +25,12 @@ import WDSImg6 from '../src/assets/images/works/waterDropletSculpture/detail6.we
 import WDSImg7 from '../src/assets/images/works/waterDropletSculpture/detail7.webp'
 import WDSImg8 from '../src/assets/images/works/waterDropletSculpture/detail8.webp'
 
+// Pendulum Resonator
+import PENDThumbnail from '../src/assets/images/works/pendulumResonator/thumbnail.webp'
+import PENDImg1 from '../src/assets/images/works/pendulumResonator/detail1.webp'
+import PENDImg2 from '../src/assets/images/works/pendulumResonator/detail2.webp'
+import PENDImg3 from '../src/assets/images/works/pendulumResonator/detail3.webp'
+
 export const workInfo = [
   {
     title: 'M0.00...1',
@@ -42,6 +48,14 @@ export const workInfo = [
     year: '2023',
     detailImgs: [WDSImg1, WDSImg2, WDSImg3, WDSImg4, WDSImg5, WDSImg6, WDSImg7, WDSImg8],
     caption: `雨上がりの後、木々の葉や枝の先についた水滴は、太陽光に照らされ、彫刻のように綺麗だった。\n本作品では、このような水滴の美しさに着目し、それらを留め、観察するための場を用意した。\n水滴たちは近づくと、それぞれが引っ張り合い、一つになり、大きく成長していくが、集まりすぎると落ちていく。\nそんなあまりにも繊細で、儚く、脆い存在である水滴をあえて細い線で受け止めることで、水滴がもつ独自の緊張感を強調した表現を目指した。\nぎりぎりの状態を保ち続ける水滴、雨や霧により出来ては落ち、また出来る水滴。\nそれらが光を浴び、きらきらと輝く様子は実に美しい。\n水滴が繊細に移ろいゆく環境をじっくりと観察することで、もう二度とは来ないその瞬間に意識を向けることが出来るだろう。`
+  },
+  {
+    title: 'Pendulum Resonator',
+    pageLink: '/works/pendulumresonator',
+    thumbnailImg: PENDThumbnail,
+    year: '2023',
+    detailImgs: [PENDImg1, PENDImg2, PENDImg3],
+    caption: `振り子の共振と運動の特性を利用した動的な出力を離れた場所で行えるシステム\n\n本研究では，ユーザーが振り子を揺らすという単純な入力で，電力なしに離れた位置にある複数の出力装置を，選択的かつ反復的に一定時間動作させ，発電や回転などの動的な出力が可能な仕組み，Pendulum Resonatorを提案する．\n\n\n\n\n発表文献：伊藤 大貴，橋田 朋子：Pendulum Resonator: 振り子の共振と運動の特性を利用した動的な出力を離れた場所で行えるシステム，インタラクション2023，pp.694-698 (2023.3)`
   },
 ]
 

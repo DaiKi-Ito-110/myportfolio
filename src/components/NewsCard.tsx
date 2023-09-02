@@ -29,7 +29,7 @@ const NewsCard:React.FC<Props> = ({image, title, delay, pageLink, year, explanat
           </div>
           <p className="mt-3 font-bold">{title}</p>
           <p className="mt-1 font-bold text-xs ">{year}</p>
-          <p className="mt-5 text-xs whitespace-pre-wrap">{explanation}</p>
+          <p className="mt-5 text-xs whitespace-pre-wrap line-clamp-3">{explanation}</p>
           <div className="w-20">
           <Link to={pageLink}>
             <div className="inline-block">
