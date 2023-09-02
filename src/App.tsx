@@ -9,10 +9,13 @@ import WorkDetail from './pages/WorkDetail'
 import { workInfo } from './workInfo'
 import { newsInfo } from './newsInfo'
 import NewsDetail from './components/NewsDetail'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 const App: React.FC = () => {
   return (
       <div>
+        <Header />
         <Routes >
           <Route path='/' element={<Home />} />
           <Route path='/profile' element={<Profile />} />
@@ -26,6 +29,7 @@ const App: React.FC = () => {
           )}
           <Route path='*' element={<PageNotFound />} />
         </Routes>
+        <Footer />
       </div>
   )
 }
