@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "./",
+  "homepage": "https://daiki-ito-myportfolio-iqlepuhgw-daiki-ito-110.vercel.app/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
