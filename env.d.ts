@@ -1,1 +1,1 @@
-declare module "Header"
+declare module "Header.tsx"
