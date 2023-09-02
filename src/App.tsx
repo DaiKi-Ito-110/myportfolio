@@ -1,21 +1,18 @@
 import {Routes, Route} from 'react-router-dom'
 
-import Home from "./pages/Home"
-import Works from './pages/Works'
-import News from './pages/News'
-import PageNotFound from './pages/PageNotFound'
-import Profile from './pages/Profile'
-import WorkDetail from './pages/WorkDetail'
+import Home from "./Pages/Home"
+import Works from './Pages/Works'
+import News from './Pages/News'
+import PageNotFound from './Pages/PageNotFound'
+import Profile from './Pages/Profile'
+import WorkDetail from './Pages/WorkDetail'
 import { workInfo } from './workInfo'
 import { newsInfo } from './newsInfo'
 import NewsDetail from './components/NewsDetail'
-import Header from './components/Header'
-import Footer from './components/Footer'
 
 const App: React.FC = () => {
   return (
       <div>
-        <Header />
         <Routes >
           <Route path='/' element={<Home />} />
           <Route path='/profile' element={<Profile />} />
@@ -29,7 +26,6 @@ const App: React.FC = () => {
           )}
           <Route path='*' element={<PageNotFound />} />
         </Routes>
-        <Footer />
       </div>
   )
 }
