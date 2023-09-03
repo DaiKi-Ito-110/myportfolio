@@ -9,7 +9,7 @@ import WorkDetail from './pages/WorkDetail.tsx'
 import { workInfo } from './workInfo.ts'
 import { newsInfo } from './newsInfo.ts'
 import NewsDetail from './components/NewsDetail.tsx'
-import Header from './components/Header.tsx'
+import Header from './components/Header.jsx'
 import Footer from './components/Footer.tsx'
 
 const App: React.FC = () => {
