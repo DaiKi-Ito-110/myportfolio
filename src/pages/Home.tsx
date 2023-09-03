@@ -5,10 +5,10 @@ import { HomeLinkToPage } from "../components/HomeLinkToPage"
 import wThumbnail from  '../assets/images/works/waterDropletSculpture/thumbnail.webp'
 
 //profile
-const pThumbnail = '/public/images/profile/thumbnail.webp'
+import pThumbnail from '../assets/images/profile/thumbnail.webp'
 
 //news
-const nThumbnail = '/public/images/news/thumbnail.webp'
+import nThumbnail from '../assets/images/news/thumbnail.webp'
 
 const Home:React.FC = () => {
   return (
