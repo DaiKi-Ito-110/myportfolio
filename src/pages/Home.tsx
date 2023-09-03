@@ -2,7 +2,7 @@ import React from "react"
 import { HomeLinkToPage } from "../components/HomeLinkToPage"
 
 //works
-const wThumbnail =  '/public/images/works/waterDropletSculpture/thumbnail.webp'
+import wThumbnail from  '../assets/images/works/waterDropletSculpture/thumbnail.webp'
 
 //profile
 const pThumbnail = '/public/images/profile/thumbnail.webp'
