@@ -16,20 +16,20 @@ import MGNImg13 from '../src/assets/images/works/magnitude/detail13.webp'
 
 //water droplet sculpture
 import WDSThumbnail from '../src/assets/images/works/waterDropletSculpture/thumbnail.webp'
-import WDSImg1 from '../src/assets/images/works/waterDropletSculpture/detail2.webp'
-import WDSImg2 from '../src/assets/images/works/waterDropletSculpture/detail3.webp'
-import WDSImg3 from '../src/assets/images/works/waterDropletSculpture/detail4.webp'
-import WDSImg4 from '../src/assets/images/works/waterDropletSculpture/detail5.webp'
-import WDSImg5 from '../src/assets/images/works/waterDropletSculpture/detail6.webp'
-import WDSImg6 from '../src/assets/images/works/waterDropletSculpture/detail7.webp'
-import WDSImg7 from '../src/assets/images/works/waterDropletSculpture/detail8.webp'
-import WDSImg8 from '../src/assets/images/works/waterDropletSculpture/detail9.webp'
+import WDSImg1 from '../src/assets/images/works/waterDropletSculpture/detail1.webp'
+import WDSImg2 from '../src/assets/images/works/waterDropletSculpture/detail2.webp'
+import WDSImg3 from '../src/assets/images/works/waterDropletSculpture/detail3.webp'
+import WDSImg4 from '../src/assets/images/works/waterDropletSculpture/detail4.webp'
+import WDSImg5 from '../src/assets/images/works/waterDropletSculpture/detail5.webp'
+import WDSImg6 from '../src/assets/images/works/waterDropletSculpture/detail6.webp'
+import WDSImg7 from '../src/assets/images/works/waterDropletSculpture/detail7.webp'
+import WDSImg8 from '../src/assets/images/works/waterDropletSculpture/detail8.webp'
 
 // Pendulum Resonator
-const PENDThumbnail = '/public/images/works/pendulumResonator/thumbnail.webp'
-const PENDImg1 = '/public/images/works/pendulumResonator/detail1.webp'
-const PENDImg2 = '/public/images/works/pendulumResonator/detail2.webp'
-const PENDImg3 = '/public/images/works/pendulumResonator/detail3.webp'
+import PENDThumbnail from '../src/assets/images/works/pendulumResonator/thumbnail.webp'
+import PENDImg1 from '../src/assets/images/works/pendulumResonator/detail1.webp'
+import PENDImg2 from '../src/assets/images/works/pendulumResonator/detail2.webp'
+import PENDImg3 from '../src/assets/images/works/pendulumResonator/detail3.webp'
 
 export const workInfo = [
   {
