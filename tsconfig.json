@@ -20,7 +20,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    "types": ["vite", "react/next", "react-dom/next"],
+    "types": ["vite"],
 
     "baseUrl": ".",
     "paths": {
