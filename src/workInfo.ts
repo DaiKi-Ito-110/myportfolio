@@ -1,5 +1,5 @@
 //M0.00...1
-const MGNThumbnail = '/public/images/works/magnitude/thumbnail.webp'
+import MGNThumbnail from '../src/assets/images/profile/thumbnail.webp'
 const MGNImg1 = '/public/images/works/magnitude/detail1.webp'
 const MGNImg2 = '/public/images/works/magnitude/detail2.webp'
 const MGNImg3 = '/public/images/works/magnitude/detail3.webp'
