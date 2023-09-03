@@ -1,8 +1,10 @@
-import { workInfoContentType } from "../workInfo.ts"
-import {useInView} from 'react-intersection-observer'
-import TransitionFromBottom from "../components/TransitionFromBottom.tsx";
+import React from "react";
 import { useState } from "react";
-import OnHoverBar from "../components/OnHoverBar.tsx";
+
+import { workInfoContentType } from "../workInfo"
+import {useInView} from 'react-intersection-observer'
+import TransitionFromBottom from "../components/TransitionFromBottom";
+import OnHoverBar from "../components/OnHoverBar";
 import {VscTriangleDown, VscTriangleUp} from 'react-icons/vsc'
 
 type Props = {
@@ -36,17 +38,18 @@ const WorkDetail:React.FC<Props> = ({work}) => {
           )
         )}
       </div>
-      <div className="absolute -bottom-10 left-0">
-          <button onClick={()=>setIsVisible(!isVisible)} className={`font-bold`}>
-            <OnHoverBar>
-                <div className="flex items-end gap-x-2.5">
-                  {!isVisible ? 'load more' : 'collapse'}
-                  {!isVisible ? <VscTriangleDown className='text-sm -translate-y-0.5' /> : <VscTriangleUp className='text-sm -translate-y-0.5' />}
-                </div>
-
-            </OnHoverBar>
-          </button>
-      </div>
+      {!work.notNeedLoadMoreButton &&
+        <div className="absolute -bottom-10 left-0">
+            <button onClick={()=>setIsVisible(!isVisible)} className={`font-bold`}>
+              <OnHoverBar>
+                  <div className="flex items-end gap-x-2.5">
+                    {!isVisible ? 'load more' : 'collapse'}
+                    {!isVisible ? <VscTriangleDown className='text-sm -translate-y-0.5' /> : <VscTriangleUp className='text-sm -translate-y-0.5' />}
+                  </div>
+              </OnHoverBar>
+            </button>
+        </div>
+      }
     </div>
   )
 }
