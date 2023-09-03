@@ -1,8 +1,8 @@
 //sushi tech
-const SushiThumbnail = '/public/images/news/sushitech/thumbnail.webp'
+import SushiThumbnail from '../src/assets/images/news/sushitech/thumbnail.webp'
 
 // 東大制作展extra
-const VoidageThumbnail = '/public/images/news/voidage/thumbnail.webp'
+import VoidageThumbnail from '../src/assets/images/news/voidage/thumbnail.webp'
 
 export type newsInfoContentType = {
   title: string;
