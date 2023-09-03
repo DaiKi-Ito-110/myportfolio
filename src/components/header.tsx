@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 import OnHoverBar from './OnHoverBar.tsx';
 
-const Header:React.FC = () => {
+export const Header:React.FC = () => {
 
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const toggleIsOpen = () => {
@@ -39,5 +39,3 @@ const Header:React.FC = () => {
     </div>
   )
 }
-
-export default Header
