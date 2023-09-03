@@ -1,13 +1,14 @@
-import { HomeLinkToPage } from "../components/HomeLinkToPage.tsx"
+import React from "react"
+import { HomeLinkToPage } from "../components/HomeLinkToPage"
 
 //works
-import wThumbnail from '../../src/assets/images/works/waterDropletSculpture/thumbnail.webp'
+const wThumbnail =  '/public/images/works/waterDropletSculpture/thumbnail.webp'
 
 //profile
-import pThumbnail from '../../src/assets/images/profile/thumbnail.webp'
+const pThumbnail = '/public/images/profile/thumbnail.webp'
 
 //news
-import nThumbnail from '../../src/assets/images/news/thumbnail.webp'
+const nThumbnail = '/public/images/news/thumbnail.webp'
 
 const Home:React.FC = () => {
   return (

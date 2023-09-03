@@ -1,4 +1,5 @@
-import prof from '../profileInfo.ts';
+import React from 'react';
+import prof from '../profileInfo';
 
 const Profile:React.FC = () => {
   return (
