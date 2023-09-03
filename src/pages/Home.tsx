@@ -12,7 +12,7 @@ import nThumbnail from '../assets/images/news/thumbnail.webp'
 
 const Home:React.FC = () => {
   return (
-    <div className="flex flex-col mt-10">
+    <div className="flex flex-col">
       <HomeLinkToPage image={wThumbnail} link="/works" title="WORKS" isTextWhite={true} />
       <HomeLinkToPage image={pThumbnail} link="/profile" title="PROFILE" isTextWhite={false} />
       <HomeLinkToPage image={nThumbnail} link="/news" title="NEWS" isTextWhite={true} />

@@ -1,7 +1,8 @@
+import React from "react"
 
 const PageNotFound:React.FC = () => {
   return (
-    <div>404 Page Not Found</div>
+    <div className="mt-20 mb-20">404 Page Not Found</div>
   )
 }
 
