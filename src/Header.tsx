@@ -14,8 +14,8 @@ const Header:React.FC = () => {
   };
 
   return (
-    <div className='z-100'>
-      <div className='flex flex-row w-full items-center justify-between mt-2 sticky top-0 left-0'>
+    <div className='z-100 bg-gray-200'>
+      <div className='flex flex-row w-full items-center justify-between pt-1 pb-1 sticky top-0 left-0'>
         <Link className='' to='/' onClick={()=>setIsOpen(false)}>
           <h1 className='text-xl font-bold ml-10'>
             DAIKI ITO
