@@ -15,9 +15,9 @@ const Header:React.FC = () => {
 
   return (
     <div className='z-100 bg-gray-100'>
-      <div className='flex flex-row w-full items-center justify-between pt-1 pb-1 sticky top-0 left-0'>
+      <div className='flex flex-row w-full items-center justify-between pt-1 pb-1 md:pt-10 md:pb-10 sticky top-0 left-0'>
         <Link className='' to='/' onClick={()=>setIsOpen(false)}>
-          <h1 className='text-xl font-bold ml-10'>
+          <h1 className='text-xl font-bold ml-5 md:ml-10'>
             DAIKI ITO
           </h1>
         </Link>
@@ -32,7 +32,7 @@ const Header:React.FC = () => {
             <Link to='/news'>NEWS</Link>
           </OnHoverBar>
         </div>
-        <div className='md:hidden mr-10'>
+        <div className='md:hidden mr-5 md:mr-10'>
           <Hamburger toggled={isOpen} toggle={toggleIsOpen} size={26} />
         </div>
       </div>

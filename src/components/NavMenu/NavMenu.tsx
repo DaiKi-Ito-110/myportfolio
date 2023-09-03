@@ -1,5 +1,7 @@
-import NavElement from './NavElement.tsx';
+import React from 'react';
 import { motion } from 'framer-motion';
+
+import NavElement from './NavElement';
 
 type Props = {
   onClick: ()=>void;
