@@ -1,9 +1,10 @@
+import React from 'react';
 import {Link} from 'react-router-dom'
 import {Squash as Hamburger} from 'hamburger-react'
-import NavMenu from './NavMenu/NavMenu.tsx';
+import NavMenu from './NavMenu/NavMenu';
 import { useState } from 'react';
 
-import OnHoverBar from './OnHoverBar.tsx';
+import OnHoverBar from './OnHoverBar';
 
 const Header:React.FC = () => {
 
