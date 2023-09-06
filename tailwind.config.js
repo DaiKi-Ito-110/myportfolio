@@ -5,6 +5,9 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: ['@tailwindcss/line-clamp'],
+  plugins: [
+    '@tailwindcss/line-clamp',
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }
 

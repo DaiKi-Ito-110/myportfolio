@@ -39,6 +39,7 @@ export type workInfoContentType = {
   detailImgs: string[];
   caption: string;
   notNeedLoadMoreButton?: boolean;
+  youtubeUrl?: string;
 }
 
 export const workInfo:workInfoContentType[] = [
@@ -57,7 +58,8 @@ export const workInfo:workInfoContentType[] = [
     thumbnailImg: WDSThumbnail,
     year: '2023',
     detailImgs: [WDSImg1, WDSImg2, WDSImg3, WDSImg4, WDSImg5, WDSImg6, WDSImg7, WDSImg8],
-    caption: `雨上がりの後、木々の葉や枝の先についた水滴は、太陽光に照らされ、彫刻のように綺麗だった。\n本作品では、このような水滴の美しさに着目し、それらを留め、観察するための場を用意した。\n水滴たちは近づくと、それぞれが引っ張り合い、一つになり、大きく成長していくが、集まりすぎると落ちていく。\nそんなあまりにも繊細で、儚く、脆い存在である水滴をあえて細い線で受け止めることで、水滴がもつ独自の緊張感を強調した表現を目指した。\nぎりぎりの状態を保ち続ける水滴、雨や霧により出来ては落ち、また出来る水滴。\nそれらが光を浴び、きらきらと輝く様子は実に美しい。\n水滴が繊細に移ろいゆく環境をじっくりと観察することで、もう二度とは来ないその瞬間に意識を向けることが出来るだろう。`
+    caption: `水滴が成長する過程を観察する。\n\n雨上がりの後、木々の葉や枝の先についた水滴は、太陽光に照らされ、彫刻のように綺麗だった。\n本作品では、このような水滴の美しさに着目し、それらを留め、観察するための場を用意した。\n水滴たちは近づくと、それぞれが引っ張り合い、一つになり、大きく成長していくが、集まりすぎると落ちていく。\nそんなあまりにも繊細で、儚く、脆い存在である水滴をあえて細い線で受け止めることで、水滴がもつ独自の緊張感を強調した表現を目指した。\nぎりぎりの状態を保ち続ける水滴、雨や霧により出来ては落ち、また出来る水滴。\nそれらが光を浴び、きらきらと輝く様子は実に美しい。\n水滴が繊細に移ろいゆく環境をじっくりと観察することで、もう二度とは来ないその瞬間に意識を向けることが出来るだろう。`,
+    youtubeUrl: 'https://www.youtube.com/embed/dHDhJ1rK230?si=uDUQQ9NLGslBvCmQ',
   },
   {
     title: 'Pendulum Resonator',

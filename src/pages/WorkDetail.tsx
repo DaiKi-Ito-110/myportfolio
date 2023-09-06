@@ -6,6 +6,7 @@ import {useInView} from 'react-intersection-observer'
 import TransitionFromBottom from "../components/TransitionFromBottom";
 import OnHoverBar from "../components/OnHoverBar";
 import {VscTriangleDown, VscTriangleUp} from 'react-icons/vsc'
+import YoutubeVideo from "../components/YoutubeVideo";
 
 type Props = {
   work: workInfoContentType;
@@ -15,11 +16,10 @@ const WorkDetail:React.FC<Props> = ({work}) => {
   const [ref, inView] = useInView({rootMargin: '-100px', triggerOnce: true});
   const [isVisible, setIsVisible] = useState<boolean>(false);
 
-
   return (
     <div className="relative w-10/12 md:w-4/5 flex flex-col items-center m-auto mt-10 mb-20">
       <img className="w-full" src={work.thumbnailImg} alt='thumbnail'/>
-      <div className="w-full mt-24 md:mt-36 ">
+      <div className="w-full mt-24 md:mt-36 mb-24 md:mb-36 ">
         <p className="text-sm text-gray-500">{work.year}</p>
         <h3 className="text-lg mt-5 font-bold">{work.title}</h3>
         <div ref={ref}>
@@ -30,7 +30,8 @@ const WorkDetail:React.FC<Props> = ({work}) => {
           }
         </div>
       </div>
-      <div className="mt-24 grid grid-cols-2 gap-5">
+      <YoutubeVideo videoSrc={work.youtubeUrl} thumbnail={work.thumbnailImg}/>
+      <div className="mt-5 grid grid-cols-2 gap-5">
         {work.detailImgs.map((img,i)=>
           ( i < 4  ?
             <img key={i} className="" src={img} alt={`detail img${i}`} />:
