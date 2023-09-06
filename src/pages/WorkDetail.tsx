@@ -30,7 +30,9 @@ const WorkDetail:React.FC<Props> = ({work}) => {
           }
         </div>
       </div>
-      <YoutubeVideo videoSrc={work.youtubeUrl} thumbnail={work.thumbnailImg}/>
+      {work.youtubeUrl &&
+        <YoutubeVideo videoSrc={work.youtubeUrl} thumbnail={work.thumbnailImg}/>
+      }
       <div className="mt-5 grid grid-cols-2 gap-5">
         {work.detailImgs.map((img,i)=>
           ( i < 4  ?
