@@ -19,9 +19,9 @@ const Profile:React.FC = () => {
       <div className='w-full mt-16'>
         <p className='text-left font-bold mb-5'>EXHIBITS</p>
         {prof.exhibits.map((exhibit, i) => (
-          <div className='mb-2'>
-            <p key={i} className='whitespace-pre-wrap text-xs'>{exhibit.year}</p>
-            <a href={exhibit.link} key={i} className='underline underline-offset-2 whitespace-pre-wrap text-xs'>{exhibit.title}</a>
+          <div key={i} className='mb-2'>
+            <p className='whitespace-pre-wrap text-xs'>{exhibit.year}</p>
+            <a href={exhibit.link} className='underline underline-offset-2 whitespace-pre-wrap text-xs'>{exhibit.title}</a>
           </div>
         )
         )}
@@ -29,9 +29,9 @@ const Profile:React.FC = () => {
       <div className='w-full mt-16'>
         <p className='text-left font-bold mb-5'>PAPER</p>
         {prof.paper.map((paper, i) => (
-          <div className='mb-2'>
-            <p key={i} className='whitespace-pre-wrap text-xs'>{paper.year}</p>
-            <a href={paper.link} key={i} className='underline underline-offset-2 whitespace-pre-wrap text-xs'>{paper.title}</a>
+          <div key={i} className='mb-2'>
+            <p className='whitespace-pre-wrap text-xs'>{paper.year}</p>
+            <a href={paper.link} className='underline underline-offset-2 whitespace-pre-wrap text-xs'>{paper.title}</a>
           </div>
         )
         )}
