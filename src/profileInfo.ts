@@ -22,7 +22,7 @@ const profileInfo = {
   ],
   paper: [
     {
-      year: '2023.03.10',
+      year: '2023.03.01',
       title: 'Pendulum Resonator: 振り子の共振と運動の特性を利用した動的な出力を離れた場所で行えるシステム(情報処理学会 インタラクション2023)',
       link: 'https://www.interaction-ipsj.org/proceedings/2023/data/bib/2C-53.html',
     }
