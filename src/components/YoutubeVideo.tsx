@@ -15,7 +15,7 @@ const YoutubeVideo: React.FC<Props> = ({thumbnail, videoSrc}) => {
     <div>
       {isThumbnail ? (
         <div className='relative' onClick={()=>setIsThumbnail(false)}>
-          <MdSmartDisplay className='text-8xl absolute md:text-9xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-red-500' />
+          <MdSmartDisplay className='text-8xl absolute md:text-9xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-youtube-red' />
           <img src={thumbnail} alt='videoSrc' />
         </div>
       ):(
