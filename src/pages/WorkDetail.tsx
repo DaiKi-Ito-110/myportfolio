@@ -26,6 +26,11 @@ const WorkDetail:React.FC<Props> = ({work}) => {
           {inView &&
           <TransitionFromBottom>
             <p  className="text-sm text-gray-500 leading-loose tracking-wide mt-5 whitespace-pre-wrap">{work.caption}</p>
+            {work.srcPdfLink &&
+              <div className="mt-2">
+                <a className="text-sm text-gray-500 leading-loose tracking-wide whitespace-pre-wrap underline underline-offset-2" href={work.srcPdfLink} >プレゼンテーション資料</a>
+              </div>
+            }
           </TransitionFromBottom>
           }
         </div>

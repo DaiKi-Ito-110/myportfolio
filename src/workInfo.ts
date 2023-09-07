@@ -40,6 +40,7 @@ export type workInfoContentType = {
   caption: string;
   notNeedLoadMoreButton?: boolean;
   youtubeUrl?: string;
+  srcPdfLink?: string;
 }
 
 export const workInfo:workInfoContentType[] = [
@@ -67,7 +68,8 @@ export const workInfo:workInfoContentType[] = [
     thumbnailImg: PENDThumbnail,
     year: '2023',
     detailImgs: [PENDImg1, PENDImg2, PENDImg3],
-    caption: `振り子の共振と運動の特性を利用した動的な出力を離れた場所で行えるシステム\n\n本研究では，ユーザーが振り子を揺らすという単純な入力で，電力なしに離れた位置にある複数の出力装置を，選択的かつ反復的に一定時間動作させ，発電や回転などの動的な出力が可能な仕組み，Pendulum Resonatorを提案する．\n\n\n\n\n発表文献：伊藤 大貴，橋田 朋子：Pendulum Resonator: 振り子の共振と運動の特性を利用した動的な出力を離れた場所で行えるシステム，インタラクション2023，pp.694-698 (2023.3)`,
+    caption: `振り子の共振と運動の特性を利用した動的な出力を離れた場所で行えるシステム.\n\n本研究では，ユーザーが振り子を揺らすという単純な入力で，電力なしに離れた位置にある複数の出力装置を，選択的かつ反復的に一定時間動作させ，発電や回転などの動的な出力が可能な仕組み，Pendulum Resonatorを提案する．\n\n\n\n\n発表文献：伊藤 大貴，橋田 朋子：Pendulum Resonator: 振り子の共振と運動の特性を利用した動的な出力を離れた場所で行えるシステム，インタラクション2023，pp.694-698 (2023.3)`,
     notNeedLoadMoreButton: true,
+    srcPdfLink: 'https://drive.google.com/file/d/1JfcPiYdD9WwMXbs2husw6fQG54261MJl/view?usp=drive_link',
   },
 ]
