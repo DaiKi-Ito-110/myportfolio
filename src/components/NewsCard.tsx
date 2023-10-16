@@ -1,7 +1,9 @@
+import React from "react";
 import { Link } from "react-router-dom";
-import TransitionFromBottom from "./TransitionFromBottom.tsx";
-import TransitionScaleUpOnHover from "./TransitionScaleUpOnHover.tsx";
-import OnHoverBar from "./OnHoverBar.tsx";
+import TransitionFromBottom from "./TransitionFromBottom";
+import TransitionScaleUpOnHover from "./TransitionScaleUpOnHover";
+import OnHoverBar from "./OnHoverBar";
+import ImageWithLoading from "./ImageWithLoading";
 
 type Props = {
   image?: string;
@@ -21,7 +23,7 @@ const NewsCard:React.FC<Props> = ({image, title, delay, pageLink, year, explanat
           <Link to={pageLink}>
             <TransitionScaleUpOnHover>
               {image ?
-                <img src={image} alt='thumbnail' />:
+                <ImageWithLoading className="flex justify-center items-center" src={image} alt='thumbnail' />:
                 <p className="bg-gray-100 text-center flex justify-center items-center font-bold text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl h-40 sm:h-52 md:h-52 lg:h-60 xl:h-80 2xl:h-96">{title}</p>
             }
             </TransitionScaleUpOnHover>

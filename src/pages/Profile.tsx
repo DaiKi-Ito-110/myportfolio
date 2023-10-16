@@ -1,10 +1,11 @@
 import React from 'react';
 import prof from '../profileInfo';
+import ImageWithLoading from '../components/ImageWithLoading';
 
 const Profile:React.FC = () => {
   return (
     <div className='w-5/6 sm:w-2/3 md:w-1/2 lg:w-2/5 flex flex-col items-center m-auto mt-10 mb-20'>
-      <img src={prof.myImg} alt='image' />
+      <ImageWithLoading src={prof.myImg} alt='image' />
       <div className='w-full mt-10'>
         <h1 className='text-right font-bold'>{prof.name}</h1>
         <p className='whitespace-pre-wrap font-normal text-left mt-5 text-sm w-full break-words'>{prof.statement}</p>

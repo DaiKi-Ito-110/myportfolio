@@ -1,5 +1,6 @@
+import React from 'react';
 import {Link} from 'react-router-dom'
-import OnHoverBar from './OnHoverBar.tsx';
+import OnHoverBar from './OnHoverBar';
 
 type Props = {
   linkTo: string;

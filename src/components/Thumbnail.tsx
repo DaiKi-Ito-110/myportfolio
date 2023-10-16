@@ -2,6 +2,7 @@ import React from "react";
 import { Link} from "react-router-dom";
 import TransitionFromBottom from "./TransitionFromBottom";
 import TransitionScaleUpOnHover from "./TransitionScaleUpOnHover";
+import ImageWithLoading from "./ImageWithLoading";
 
 type Props = {
   image: string;
@@ -17,7 +18,7 @@ const Thumbnail:React.FC<Props> = ({image, title, delay, pageLink}) => {
           <Link to={pageLink}>
             <div className="overflow-hidden">
               <TransitionScaleUpOnHover>
-                <img src={image} alt='thumbnail' />
+                <ImageWithLoading src={image} alt='thumbnail' />
               </TransitionScaleUpOnHover>
             </div>
             <p className="mt-1 font-bold text-sm">{title}</p>

@@ -15,7 +15,7 @@ import Footer from './components/Footer'
 
 const App: React.FC = () => {
   return (
-      <div>
+      <div className='min-h-screen relative pb-40 box-border'>
         <Header />
         <Routes >
           <Route path='/' element={<Home />} />

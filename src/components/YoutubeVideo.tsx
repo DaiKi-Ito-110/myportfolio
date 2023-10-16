@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import {MdSmartDisplay} from 'react-icons/md'
+import ImageWithLoading from './ImageWithLoading';
 
 
 
@@ -16,7 +17,7 @@ const YoutubeVideo: React.FC<Props> = ({thumbnail, videoSrc}) => {
       {isThumbnail ? (
         <div className='relative' onClick={()=>setIsThumbnail(false)}>
           <MdSmartDisplay className='text-8xl absolute md:text-9xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-youtube-red' />
-          <img src={thumbnail} alt='videoSrc' />
+          <ImageWithLoading src={thumbnail} alt='videoSrc' />
         </div>
       ):(
         <div className='w-screen aspect-w-2 aspect-h-1'>
