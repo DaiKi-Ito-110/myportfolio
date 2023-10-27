@@ -8,6 +8,12 @@ export default {
         'youtube-red': '#da1725',
       },
     },
+    maxWidth: {
+      '4/5' : '80%',
+    },
+    maxHeight: {
+      '4/5' : '80%',
+    },
   },
   plugins: [
     '@tailwindcss/line-clamp',
