@@ -18,7 +18,7 @@ const Profile:React.FC = () => {
         )}
       </div>
       <div className='w-full mt-16'>
-        <p className='text-left font-bold mb-5'>EXHIBITS</p>
+        <p className='text-left font-bold mb-5'>EXHIBITION</p>
         {prof.exhibits.map((exhibit, i) => (
           <div key={i} className='mb-2'>
             <p className='whitespace-pre-wrap text-xs'>{exhibit.year}</p>
