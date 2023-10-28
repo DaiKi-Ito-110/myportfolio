@@ -26,8 +26,8 @@ const ImageModal:React.FC<Props> = ({src,alt, className}) => {
       <ImageWithLoading onClick={handleOpen} src={src} alt='image' />
       {isOpen &&
         <div onClick={handleClose} className='fixed top-0 left-0 w-screen h-screen bg-white bg-opacity-90 z-10'>
-          <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-4/5 lg:w-2/3' >
-            <AiOutlineCloseCircle className='absolute -translate-y-full -top-5 lg:-top-3 right-0 text-2xl md:text-3xl hover:cursor-pointer'/>
+          <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full lg:w-2/3' >
+            <AiOutlineCloseCircle className='absolute -translate-y-full -top-5 lg:-top-3 right-5 lg:right-0 text-2xl md:text-3xl hover:cursor-pointer'/>
             <ImageWithLoading src={src} alt={alt} className='m-auto'/>
           </div>
         </div>

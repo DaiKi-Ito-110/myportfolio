@@ -13,6 +13,7 @@ export default {
     },
     maxHeight: {
       '4/5' : '80%',
+      'screen-8/10' : '80vh',
     },
   },
   plugins: [
