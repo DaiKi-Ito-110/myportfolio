@@ -20,7 +20,7 @@ const WorkDetail:React.FC<Props> = ({work}) => {
 
   return (
     <div className="relative w-10/12 md:w-4/5 flex flex-col items-center m-auto mt-10 mb-20">
-      <ImageWithLoading className="w-full" src={work.thumbnailImg} alt='thumbnail'/>
+      <ImageModal className="w-full" src={work.thumbnailImg} alt='thumbnail'/>
       <div className="w-full mt-24 md:mt-36 mb-24 md:mb-36 ">
         <p className="text-sm text-gray-500">{work.year}</p>
         <h3 className="text-lg mt-5 font-bold">{work.title}</h3>
