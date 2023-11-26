@@ -10,6 +10,11 @@ const profileInfo = {
   ],
   exhibits: [
     {
+      year: '2023.11.16 - 2023.11.20',
+      title: '東京大学制作展2023 學藝運動',
+      link: 'https://www.iiiexhibition.com/'
+    },
+    {
       year: '2023.08.30 - 2023.11.19',
       title: 'わたしのからだは心になる？展',
       link: 'https://sushitech-real.metro.tokyo.lg.jp/first/'
@@ -17,8 +22,8 @@ const profileInfo = {
     {
       year: '2023.07.07 - 2023.07.10',
       title: '東京大学制作展EXTRA2023 VOIDAGE',
-      link: 'https://www.iiiexhibition.com/'
-    }
+      link: 'https://iii-exhibition2023.vercel.app/'
+    },
   ],
   paper: [
     {
