@@ -1,3 +1,6 @@
+//東大制作展Main
+import GakuGeiThumbnial from '../src/assets/images/news/gakugei-undo/thumbnail.webp'
+
 //sushi tech
 import SushiThumbnail from '../src/assets/images/news/sushitech/thumbnail.webp'
 
@@ -18,6 +21,25 @@ export type newsInfoType = newsInfoContentType[];
 
 
 export const newsInfo:newsInfoType = [
+  {
+    title:'東京大学制作展2023 學藝運動' ,
+    pageLink: '/news/gakugei-undo',
+    thumbnailImg: GakuGeiThumbnial,
+    year: '2023',
+    explanation: '東京大学制作展2023 學藝運動にてプロデューサーを務めました。\nまた、本展覧会では「水滴の彫刻ver2」を展示しました。',
+    internalRelatedLink: [
+        {
+        title: '水滴の彫刻 ver2',
+        link: '/works/waterdropletsculpture2',
+      },
+    ],
+    externalRelatedLink: [
+        {
+        title: '東京大学制作展2023 學藝運動',
+        link: 'https://www.iiiexhibition.com/',
+      },
+    ],
+  },
   {
     title:'わたしのからだは心になる？展' ,
     pageLink: '/news/sushi',
@@ -52,7 +74,7 @@ export const newsInfo:newsInfoType = [
     externalRelatedLink: [
         {
         title: '東京大学制作展EXTRA2023 VOIDAGE',
-        link: 'https://www.iiiexhibition.com/',
+        link: 'https://iii-exhibition2023.vercel.app/',
       },
     ],
   },

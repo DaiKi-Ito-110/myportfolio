@@ -1,3 +1,15 @@
+//water droplet sculpture ver2
+
+import WDS2Thumbnail from '../src/assets/images/works/waterDropletSculpture2/thumbnail.webp'
+import WDS2Img1 from '../src/assets/images/works/waterDropletSculpture2/detail1.webp'
+import WDS2Img2 from '../src/assets/images/works/waterDropletSculpture2/detail2.webp'
+import WDS2Img3 from '../src/assets/images/works/waterDropletSculpture2/detail3.webp'
+import WDS2Img4 from '../src/assets/images/works/waterDropletSculpture2/detail4.webp'
+import WDS2Img5 from '../src/assets/images/works/waterDropletSculpture2/detail5.webp'
+import WDS2Img6 from '../src/assets/images/works/waterDropletSculpture2/detail6.webp'
+import WDS2Img7 from '../src/assets/images/works/waterDropletSculpture2/detail7.webp'
+
+
 //M0.00...1
 import MGNThumbnail from '../src/assets/images/works/magnitude/thumbnail.webp'
 import MGNImg1 from '../src/assets/images/works/magnitude/detail1.webp'
@@ -44,6 +56,14 @@ export type workInfoContentType = {
 }
 
 export const workInfo:workInfoContentType[] = [
+  {
+    title: '水滴の彫刻 ver2',
+    pageLink: '/works/waterdropletsculpture2',
+    thumbnailImg: WDS2Thumbnail,
+    year: '2023',
+    detailImgs: [WDS2Img1, WDS2Img2, WDS2Img3, WDS2Img4, WDS2Img5, WDS2Img6, WDS2Img7],
+    caption: `水滴が生まれ、成長し、死ぬまでの過程を観察する。\n\n梅雨の時期の雨上がり、たくさんの水滴たちが木々の葉や枝の先、屋根などについていた。\nそれらは太陽光に照らされ、きらきらと輝く彫刻のように美しく、私は魅了された。\n私が見た水滴は最初から水滴の状態であって、あたかもずっとそこにいたかのように感じられた。\nしかし、そんなはずはない。\n水滴は雨上がりのほんの一瞬の間にのみ私の目の前に現れ、知らぬ間に消えている。\n私たちは水滴の行く先など気にもかけない。\n水滴たちはどのようにやってきて、いなくなっているのだろうか。\n私はそれを純粋に知りたいと思った。\n水滴の彫刻は、このような動機から制作された、水滴が成長し、落ちていくまでの過程をじっくりと観察するための作品である。\n水滴が繊細に移ろいゆく様子を観察していると、水滴に対する鑑賞者の意識にも変化が生まれるだろう。`,
+  },
   {
     title: 'M0.00...1',
     pageLink: '/works/magnitude',
