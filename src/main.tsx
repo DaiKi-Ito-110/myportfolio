@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>
       <Helmet>
-        <link rel="icon" href="/src/assets/images/favicon/favicon.webp" />
+        {/* <link rel="icon" href="/src/assets/images/favicon/favicon.webp" /> */}
         <title>DaiKi Ito Portfolio</title>
         <meta name="description" content="圧倒的な変数を持つ自然環境をうまく受け入れる関数となるような、システムや作品の制作を行っています。" />
       </Helmet>
