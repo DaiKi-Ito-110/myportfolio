@@ -7,7 +7,6 @@ import TransitionFromBottom from "../components/TransitionFromBottom";
 import OnHoverBar from "../components/OnHoverBar";
 import {VscTriangleDown, VscTriangleUp} from 'react-icons/vsc'
 import YoutubeVideo from "../components/YoutubeVideo";
-import ImageWithLoading from "../components/ImageWithLoading";
 import ImageModal from "../components/ImageModal";
 
 type Props = {
