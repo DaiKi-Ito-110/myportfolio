@@ -57,12 +57,13 @@ export type workInfoContentType = {
 
 export const workInfo:workInfoContentType[] = [
   {
-    title: '水滴の彫刻 ver2',
+    title: '水滴の彫刻 ver2.0',
     pageLink: '/works/waterdropletsculpture2',
     thumbnailImg: WDS2Thumbnail,
     year: '2023',
     detailImgs: [WDS2Img1, WDS2Img2, WDS2Img3, WDS2Img4, WDS2Img5, WDS2Img6, WDS2Img7],
     caption: `小さな水滴が大きくなり、落ちるまでの過程を観察することで、水滴が持つ美しさに魅了される。\n\n梅雨の時期の雨上がり、たくさんの水滴たちが木々の葉や枝の先、屋根などについていた。\nそれらは太陽光に照らされ、きらきらと輝く彫刻のように美しく、私は魅了された。\n私が見た水滴は最初から水滴の状態であって、あたかもずっとそこにいたかのように感じられた。\nしかし、そんなはずはない。\n水滴は雨上がりのほんの一瞬の間にのみ私の目の前に現れ、知らぬ間に消えている。\n私たちは水滴の行く先など気にもかけない。\n水滴たちはどのようにやってきて、いなくなっているのだろうか。\n私はそれを純粋に知りたいと思った。\n水滴の彫刻は、このような動機から制作された、水滴が成長し、落ちていくまでの過程をじっくりと観察するための作品である。\n水滴が繊細に移ろいゆく様子を観察していると、水滴に対する鑑賞者の意識にも変化が生まれるだろう。`,
+    youtubeUrl : 'https://www.youtube.com/embed/lXk3o3uN5Ww?si=WXFkEa0HjhGBE32R'
   },
   {
     title: 'M0.00...1',
